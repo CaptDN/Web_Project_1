@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: #333;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?gym');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #e67e22;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.services, .about, .contact, .blog {
+    padding: 50px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    flex: 1 1 30%;
+    margin: 10px;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* service image tag targeted */
+
+.service img {  
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    border: none;
+    background: #e67e22;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blog-post h2 {
+    margin: 0 0 10px 0;
+}
+
+.blog-post p {
+    margin: 0 0 10px 0;
+}
+
+.blog-post a {
+    color: #e67e22;
+    text-decoration: none;
+}
